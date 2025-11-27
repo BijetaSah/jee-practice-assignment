@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📘 JEE MCQ Quiz App
 
-## Getting Started
+A simple and fast MCQ practice app for JEE aspirants. No login required — just open and start solving questions instantly.
 
-First, run the development server:
+Built using Next.js, React, and TailwindCSS.
 
-```bash
+🚀 Features
+✅ JEE-Level MCQs
+
+Curated Physics, Chemistry, and Mathematics questions.
+
+🔓 No Login Required
+
+Start practicing immediately — no signup or authentication.
+
+⚡ Instant Answer Feedback
+
+Selected option turns red when wrong and green when correct.
+
+▶️ Next Question Navigation
+
+Move through questions one by one with a clean “Next” button.
+
+🧮 Score Tracking
+
+Live score updates as you answer each question.
+
+🏁 Final Result Screen
+
+See your final score and restart the quiz anytime.
+
+🛠️ Tech Stack
+
+Next.js 14
+
+React
+
+Tailwind CSS
+
+React Icons
+
+Vercel
+
+▶️ Running the Project
+🔧 Install Dependencies
+npm install
+
+🚀 Start Dev Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project will be available at:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📄 How the App Works
 
-## Learn More
+App loads the first question from /data/questions.ts.
 
-To learn more about Next.js, take a look at the following resources:
+User selects an option.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+App shows:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🟩 Green for correct option
 
-## Deploy on Vercel
+🟥 Red for wrong selected option
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Clicking Next loads the next question.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+After the last question, the Result Screen appears.
+
+User can Restart Quiz.
