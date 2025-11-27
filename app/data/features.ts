@@ -1,11 +1,10 @@
-import { ReactNode } from "react";
 import { FaUnlock, FaCheckCircle, FaBookOpen } from "react-icons/fa";
 
 interface Features {
   id: number;
   title: string;
   description: string;
-  icon: React.ComponentType;
+  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
 }
 export const features: Features[] = [
   {
